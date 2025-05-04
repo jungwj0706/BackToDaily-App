@@ -1,0 +1,27 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- "다음 문자 보기" 버튼 -->
+    <Button
+        android:id="@+id/viewNextMessageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="다음 문자 보기"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp" />  <!-- 여기에 marginTop을 추가하여 위치 조정 -->
+
+    <!-- "도박 치료하러 가기" 버튼, 초기에는 숨김 상태 -->
+    <Button
+        android:id="@+id/goToTreatmentButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="도박 손실, 일로 되찾을 수 있을까요?"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/viewNextMessageButton"
+        android:layout_marginTop="16dp"
+        android:visibility="gone" />
+
+</RelativeLayout>
